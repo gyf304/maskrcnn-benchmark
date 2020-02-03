@@ -4,6 +4,8 @@
 import glob
 import os
 
+dist.Distribution().fetch_build_eggs(['Cython>=0.27.3', 'torch'])
+
 import torch
 from setuptools import find_packages
 from setuptools import setup
