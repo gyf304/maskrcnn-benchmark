@@ -1,2 +1,8 @@
-[build-system]
-requires = ["cython","numpy","ninja","opencv-python"]
+[dependencies]
+Cython = "^0.27.3"
+numpy = "^1.18.1"
+ninja = "*"
+yacs = "*"
+matplotlib = "*"
+tqdm = "*"
+opencv-python = "*"
