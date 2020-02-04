@@ -4,10 +4,7 @@
 import glob
 import os
 
-from setuptools import dist, find_packages, setup
-
-dist.Distribution().fetch_build_eggs(['scikit-build'])
-dist.Distribution().fetch_build_eggs(['Cython>=0.27.3', 'torch', 'ninja'])
+from setuptools import find_packages, setup
 
 import torch
 from torch.utils.cpp_extension import CUDA_HOME
