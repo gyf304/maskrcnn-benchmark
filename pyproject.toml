@@ -1,6 +1,3 @@
-[build-system]
-requires = ["cython"]
-
 [dependencies]
 torch = "*"
 torchvision = "*"
