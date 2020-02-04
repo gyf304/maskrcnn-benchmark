@@ -3,4 +3,4 @@ yacs
 cython
 matplotlib
 tqdm
-opencv-python>=4.2.0.32
+opencv-contrib-python
